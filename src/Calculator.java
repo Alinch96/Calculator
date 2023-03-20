@@ -17,7 +17,7 @@ public class Calculator {
 
 
         while (b) {
-            System.out.print("\nEnter one of them (+; -; *; /; %)");
+            System.out.print("\nEnter one of them (+; -; *; /; leave)");
             String opeand = scanner.next();
             switch (opeand) {
                 case "+":
